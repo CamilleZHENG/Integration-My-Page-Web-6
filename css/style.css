@@ -1,0 +1,145 @@
+@font-face{
+	font-family: "courgette";
+	src:url(../fonts/Courgette-Regular.ttf);
+}
+@font-face{
+	font-family: "openSans";
+	src:url(../fonts/OpenSans-Regular.ttf);
+}
+a,h1,h2,h4{
+	font-family: "courgette";
+	font-size: 1em;
+}
+h3,p,ul,footer{
+	font-family: "openSans";
+}
+header,section,footer{
+	max-width: 1500px;
+}
+header{
+	text-align: center;
+}
+img,nav{
+	display: inline-block;
+	vertical-align: middle;
+}
+img{
+	width:80px;
+}
+nav{
+	width: 45%;
+}
+a{
+	text-decoration: none;
+	color: rgb(117, 209, 198);
+}
+.bottonList{
+	list-style-type: none;
+	padding: 0;
+}
+.botton{
+	display: inline-block;
+	text-align: center;
+	width: 24%;
+}
+.agenda:before{
+	font-family: "FontAwesome";
+	content:"\f133     ";
+	width: 50px;
+}
+.livre:before{
+	font-family: "FontAwesome";
+	content:"\f02d     ";
+	width: 50px;
+}
+.photo:before{
+	font-family: "FontAwesome";
+	content:"\f03e     ";
+	width: 50px;
+}
+.contact:before{
+	font-family: "FontAwesome";
+	content:"\f003     ";
+	width: 50px;
+}
+.section1{
+	text-align: center;
+	background-image: url(../img/fond.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+.title{
+	opacity: 0.75;
+	color: white;
+	padding-top: 19em;
+	padding-bottom: 13em;
+}
+h1{
+	background-color: rgb(117, 209, 198);
+	font-size: 3em;
+	font-weight: normal;
+	margin: 0;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+}
+h2{
+	background-color: rgb(117, 209, 198);
+	font-size: 2em;
+	font-weight: normal;
+	margin:0;
+	padding-bottom: 1.5em;
+}
+h3{
+	background-color: rgb(117, 209, 198);
+	color: white;
+	font-size: 1.5em;
+	font-weight: normal;
+	padding:1.2em 1.2em;
+	margin:0;
+}
+.pForSection2,.listForSection2{
+	width: 80%;
+	margin:auto;
+	line-height: 2;
+}
+.section2{
+	margin-top: 3em;
+	margin-bottom: 2.5em;
+}
+.pForSection2{
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+}
+.listForSection2{
+	padding-left: 7%;
+}
+.section3{
+	background-color: rgb(184,203,33);
+	padding-top: 2em;
+	padding-bottom: 2em;	
+}
+article{
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+	text-align: center;
+	width: 26%;	
+	padding-left: 3.5%;
+	padding-right: 3.5%;
+}
+h4{
+	font-size: 1.5em;
+	font-weight: normal;
+}
+.pForArticle{
+	line-height: 2;
+}
+html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; }
+footer{
+	background-color: rgb(117, 209, 198);
+	text-align: center;
+	color: white;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}

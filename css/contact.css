@@ -1,0 +1,168 @@
+@font-face{
+	font-family: "courgette";
+	src:url(../fonts/Courgette-Regular.ttf);
+}
+@font-face{
+	font-family: "openSans";
+	src:url(../fonts/OpenSans-Regular.ttf);
+}
+body{
+	font-family: "openSans", Serif;
+}
+a{
+	text-decoration: none;
+	color: rgb(117, 209, 198);
+	transition: all 4s ease 0s;
+}
+a:hover{
+	color: red;
+	transition: all 1s ease 0s;
+}
+header,table,form,footer{
+	max-width: 1500px;
+}
+nav{
+	display: block;
+	text-align: center;
+}
+header>nav>a, header>nav>ul{
+	display: inline-block;
+	vertical-align: middle;
+}
+header>nav a{
+	font-family: "courgette";
+	text-align:center;
+}
+img{
+	width:80px;
+}
+header>nav>ul{
+	list-style-type: none;
+	padding: 0;
+	width: 60%;
+	transition: all 1s ease 0s;
+}
+header>nav>ul>li{
+	display: inline-block;
+	text-align: center;
+	width: 24%;
+}
+header>nav>ul>li:first-child a:before{
+	font-family: "FontAwesome";
+	content:"\f133";
+	width: 50px;
+}
+header>nav>ul>li:nth-child(2) a:before{
+	font-family: "FontAwesome";
+	content:"\f02d";
+	width: 50px;
+}
+header>nav>ul>li:nth-child(3) a:before{
+	font-family: "FontAwesome";
+	content:"\f03e";
+	width: 50px;
+}
+header>nav>ul>li:nth-child(4) a:before{
+	font-family: "FontAwesome";
+	content:"\f003";
+	width: 50px;
+}
+h1,h2,h3{
+	font-family: "courgette";
+	font-weight: normal;
+	text-align:center;
+}
+table{
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: middle;
+}
+table,tr,th,td{
+	width: 90%;
+	margin:auto;
+	border:solid grey 0.5px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}	
+th{
+	font-family: "courgette";
+	color:white;
+	background-color: rgb(73, 195, 180);
+	font-size: 1.3em;
+	font-weight: normal;
+	height: 2.5em;
+	text-align: left;
+	padding-left: 2%;
+}
+td{
+	font-size: 1em;
+	width: 30%;
+	height: 2em;
+}
+td:first-child{
+	text-align: left;
+	padding-left: 2%;
+}
+tr:nth-child(even)
+{
+	background-color: rgb(242, 242, 242);
+}
+table a{
+	font-weight: bold;
+}
+form{
+	text-align: center;
+}
+input{
+	color: rgb(117, 209, 198);
+}
+input[type="text"]{
+	color:grey;
+	border:none;
+	border-bottom:solid rgb(117, 209, 198) 1px;
+}
+input[name="firstName"],input[name="familyName"]{
+	width: 40%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+input[name="mail"]{
+	width: 84.5%;
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 4em;
+}
+input[type="checkbox"],input[type="radio"]{
+	width: 5%;
+	margin-top: 1em;
+	margin-bottom: 4em;
+}
+select,option{
+	width: 84.5%;
+	color: rgb(117, 209, 198);
+	background-color: white;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	border: solid rgb(117, 209, 198) 1px;
+}
+button{
+	color: white;
+	background-color:rgb(117, 209, 198); 
+	border:none;
+	padding:0.5em 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 2em;
+}
+footer{
+	background-color: rgb(117, 209, 198);
+	text-align: center;
+	line-height: 2;
+	color: white;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
